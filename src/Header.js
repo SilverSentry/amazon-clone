@@ -56,7 +56,7 @@ function Header() {
                     </span>
                 </div>
 
-                <Link to="/checkout">
+                <Link to="/checkout" >
                     <div className="header__optionBasket">
 
                         <ShoppingBasketIcon />
@@ -67,7 +67,7 @@ function Header() {
                 </Link>
             </div>
         </div>
-    )
+    );
 }
 
-export default Header
+export default Header;
