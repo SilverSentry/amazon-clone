@@ -15,18 +15,22 @@ function App() {
         <Switch>
 
           <Route path="/checkout">
+           <Header />
             <Checkout />
           </Route>
           
           <Route path="/login">
+    
            <Login/>
           </Route>
     
           <Route path="/payment">
+           <Header />
             <Payment />
           </Route>
 
           <Route path="/">
+           <Header />
             <Home />
           </Route>
 
